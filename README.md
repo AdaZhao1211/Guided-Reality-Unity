@@ -84,6 +84,13 @@ create an SSH tunnel from Mac port 8765 to your service and run
 `adb reverse tcp:8765 tcp:8765`. The headset then uses
 `http://127.0.0.1:8765` while both connections remain open.
 
+ssh alienware-4090 'gpu-status'
+
+ssh alienware-4090 'tmux new-session -d -s ada-guidedreality-sam "bash /home/adazhao/guidedreality-sam/start_persistent.sh >> /home/adazhao/guidedreality-sam/resident.log 2>&1"'
+
+ssh alienware-4090 'tmux kill-session -t ada-guidedreality-sam'
+
+
 ## Models and checks
 
 Models are loaded from `Assets/Resources/GuidanceModels`. Hand gestures are static
