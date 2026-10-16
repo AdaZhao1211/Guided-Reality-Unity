@@ -1,0 +1,53 @@
+{
+    "instructions": [
+        {
+            "instruction": "Locate the 3D printer on the desk",
+            "visual_type": 1,
+            "key_components": [
+                "3D printer"
+            ]
+        },
+        {
+            "instruction": "Clean the bed with a 3D printer scraper",
+            "visual_type": 4,
+            "key_components": [
+                "3D printer bed", "", "Scraper"
+            ]
+        },
+        {
+            "instruction": "Move the printer bed back to the center",
+            "visual_type": 2,
+            "key_components": [
+                "3D printer bed", "location"
+            ]
+        },
+        {
+            "instruction": "Press the knob, turn to navigate the menu to [Unload Filament] - [PLA]",
+            "visual_type": 1,
+            "key_components": [
+                "the black knob"
+            ]
+        },
+        {
+            "instruction": "Wait around 1m15s for the temperature to reach",
+            "visual_type": 5,
+            "key_components": [
+                "lcd screen", "1:15"
+            ]
+        },
+        {
+            "instruction": "Press the knob to confirm unload filament",
+            "visual_type": 1,
+            "key_components": [
+                "the black knob"
+            ]
+        },
+        {
+            "instruction": "Pull the filament out",
+            "visual_type": 3,
+            "key_components": [
+                "3D printer nozzle", "pinch"
+            ]
+        }
+    ]
+}

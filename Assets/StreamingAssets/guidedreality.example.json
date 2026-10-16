@@ -1,0 +1,1 @@
+{"geminiApiKey":"","geminiModel":"gemini-3.8-flash","samEndpoint":"http://127.0.0.1:8765","samToken":"","timeoutSeconds":90,"depthGridColumns":81,"depthGridRows":61,"maxCaptureAgeSeconds":120}

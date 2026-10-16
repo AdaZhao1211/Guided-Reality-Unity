@@ -1,0 +1,53 @@
+{
+    "instructions": [
+        {
+            "instruction": "Open the Automatic Document Feeder(ADF)",
+            "visual_type": 2,
+            "key_components": [
+                "keyboard", "flip up"
+            ]
+        },
+        {
+            "instruction": "Wipe stains off the slit scan glass using a dry, clean cloth",
+            "visual_type": 4,
+            "key_components": [
+                "keyboard", "up and down", "Rag"
+            ]
+        },
+        {
+            "instruction": "Release the lock lever of the Opening and Closing Guide and open it",
+            "visual_type": 3,
+            "key_components": [
+                "keyboard", "hook"
+            ]
+        },
+        {
+            "instruction": "Wipe stain off the upper slit scan glass using a dry, clean cloth",
+            "visual_type": 4,
+            "key_components": [
+                "keyboard", "up and down", "Rag"
+            ]
+        },
+        {
+            "instruction": "Close the Opening and Closing Guide",
+            "visual_type": 1,
+            "key_components": [
+                "keyboard"
+            ]
+        },
+        {
+            "instruction": "Close the Automatic Document Feeder(ADF)",
+            "visual_type": 2,
+            "key_components": [
+                "keyboard", "flip down"
+            ]
+        },
+        {
+            "instruction": "Wait for 10s to make sure there is no error showing on the screen",
+            "visual_type": 5,
+            "key_components": [
+                "keyboard", "0:10"
+            ]
+        }
+    ]
+}
